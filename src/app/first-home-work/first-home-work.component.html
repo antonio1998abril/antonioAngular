@@ -3,3 +3,9 @@
 <button type="button" (click)="changeColor()">Toggle active</button><br/>
 <span [ngClass]="{'redText':active}" >Hello</span>
 <p>active: {{active}}</p>
+
+<h1>NgStyle</h1>
+<button type="button" (click)="changeColor()">Toggle active</button><br/>
+<span [ngStyle]="active && {'color':'red'} || null" >Hello</span>
+<p>active: {{active}}</p>
+
