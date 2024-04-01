@@ -1,0 +1,26 @@
+<p>second-home-work works!</p>
+<h1>NgFor</h1>
+<ul *ngFor="let iteration of items">
+    <li>{{iteration}}</li>
+</ul>
+<h1>NgIf</h1>
+<ul *ngFor="let iteration of items">
+    <li *ngIf="iteration === 'B'">{{iteration}}</li>
+</ul>
+<h1>NgSwitch</h1>
+<ng-container *ngFor="let iteration of items">
+    <ul [ngSwitch]="iteration">
+        <li *ngSwitchCase="'A'">
+            1
+        </li>
+        <li *ngSwitchCase="'B'">
+            2
+        </li>
+        <li *ngSwitchCase="'C'">
+            3
+        </li>
+        <li *ngSwitchDefault>
+            empty
+        </li>
+    </ul>
+</ng-container>
