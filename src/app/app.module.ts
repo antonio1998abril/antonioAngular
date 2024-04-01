@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ThirdHomeWorkComponent } from './third-home-work/third-home-work.component';
+import { CapitalizeDirective} from './capitalize.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ThirdHomeWorkComponent,
+    CapitalizeDirective
   ],
   imports: [
     BrowserModule,
