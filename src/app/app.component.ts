@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'antonioAngular';
+  customName?:string  = ' antonio rodriguez barrientos';
+  customNumber?:number= 2500;
+
 }
