@@ -8,7 +8,7 @@ import { FormsModule} from '@angular/forms';
   templateUrl: './fourth-home-work.component.html',
   styleUrls: ['./fourth-home-work.component.scss']
 })
-export class FourthHomeWorkComponent {
+export class DataBindingDemoComponent {
   newMessage:string = "Hello World";
 
   messageAlert(){
