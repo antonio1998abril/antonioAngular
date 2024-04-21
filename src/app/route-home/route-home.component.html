@@ -1,0 +1,9 @@
+<br/>
+<h1> This is the Home page</h1>
+&nbsp; <button routerLink='/' ><a>Return to  Demo page</a></button>
+&nbsp; <button routerLink='/home' ><a>Return to Home Page</a></button>
+&nbsp; <button [routerLink]="['child','hello']" ><a>Go to  Child page</a></button>
+&nbsp; <button [routerLink]="['child2','helloCustom']" ><a>Go to  Child page</a></button>
+<h1>Component loaded with lazy loading</h1>
+
+<router-outlet></router-outlet> 
